@@ -1,0 +1,537 @@
+{
+    "name": "世界杯8强",
+    "children": [
+      {
+        "name": "英格兰",
+        "name2": "England",
+        "len":51.72,
+        "color2": "#4aaaea",
+        "color": "rgb(150,150,150)",
+        "font_color": "white",
+        "t_value":126000,
+        "delta_r":-1,
+        "filter": 7,
+        "children": [
+          {"name":"贝林厄姆","name2":"Jude Bellingham","value":"11000","score1":"7.48","var":"0.60147","mean":"7.518","Gaussian":"0.513791193","Max":"0.514408314","delta_gau":"0.001199672189295"}
+          ,
+          {"name":"本·怀特","name2":"Ben White","value":"4500","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"布卡约·萨卡","name2":"Bukayo Saka","value":"10000","score1":"7.68","var":"1.562025","mean":"7.7025","Gaussian":"0.319154224","Max":"0.319205947","delta_gau":"0.000162036133703"}
+          ,
+          {"name":"戴尔","name2":"Eric Dier","value":"3000","score1":"6.21","var":"0.0032","mean":"6.21","Gaussian":"7.052449346","Max":"7.052449346","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"德克兰·赖斯","name2":"Declan Rice","value":"8000","score1":"6.91","var":"0.14212","mean":"7.032","Gaussian":"1.004259347","Max":"1.058247778","delta_gau":"0.051016815083346"}
+          ,
+          {"name":"菲尔·福登","name2":"Phil Foden","value":"11000","score1":"7.16","var":"0.656291667","mean":"7.1575","Gaussian":"0.492452619","Max":"0.492454964","delta_gau":"0.000004761591099"}
+          ,
+          {"name":"格雷利什","name2":"Jack Grealish","value":"7000","score1":"6.53","var":"0.21512","mean":"6.528","Gaussian":"0.860142749","Max":"0.860150745","delta_gau":"0.000009297093264"}
+          ,
+          {"name":"哈里·凯恩","name2":"Harry Kane","value":"9000","score1":"7.32","var":"0.48928","mean":"7.324","Gaussian":"0.570333828","Max":"0.570343154","delta_gau":"0.000016350422249"}
+          ,
+          {"name":"哈里·马奎尔","name2":"Harry Maguire","value":"3000","score1":"7.35","var":"0.07273","mean":"7.354","Gaussian":"1.47914381","Max":"1.479306518","delta_gau":"0.000109989825830"}
+          ,
+          {"name":"亨德森","name2":"Jordan Henderson","value":"1500","score1":"6.79","var":"0.362066667","mean":"6.95","Gaussian":"0.639981251","Max":"0.663010937","delta_gau":"0.034735001387882"}
+          ,
+          {"name":"卡尔文·菲利普斯","name2":"Kalvin Phillips","value":"4500","score1":"6.23","var":"0.02645","mean":"6.315","Gaussian":"2.139867384","Max":"2.453025859","delta_gau":"0.127662117249249"}
+          ,
+          {"name":"卡勒姆·威尔逊","name2":"Callum Wilson","value":"1800","score1":"6.43","var":"0.0578","mean":"6.43","Gaussian":"1.659399846","Max":"1.659399846","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"凯尔·沃克","name2":"Kyle Walker","value":"1500","score1":"6.73","var":"0.190633333","mean":"6.733333333","Gaussian":"0.913698449","Max":"0.913725077","delta_gau":"0.000029142199411"}
+          ,
+          {"name":"康纳·加拉格尔","name2":"Conor Gallagher","value":"3200","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"康诺·科迪","name2":"Conor Coady","value":"1800","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"拉姆斯代尔","name2":"Aaron Ramsdale","value":"3000","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"拉什福德","name2":"Marcus Rashford","value":"5500","score1":"6.94","var":"1.82247","mean":"6.978","Gaussian":"0.295401515","Max":"0.295518566","delta_gau":"0.000396087180083"}
+          ,
+          {"name":"卢克·肖","name2":"Luke Shaw","value":"2800","score1":"6.93","var":"0.19175","mean":"6.93","Gaussian":"0.911060627","Max":"0.911060627","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"梅森·芒特","name2":"Mason Mount","value":"7500","score1":"6.46","var":"0.210566667","mean":"6.575","Gaussian":"0.842523162","Max":"0.869401036","delta_gau":"0.030915391833430"}
+          ,
+          {"name":"尼克·波普","name2":"Nick Pope","value":"1800","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"皮克福德","name2":"Jordan Pickford","value":"2800","score1":"6.57","var":"0.39842","mean":"6.822","Gaussian":"0.583624332","Max":"0.632039759","delta_gau":"0.076601870371383"}
+          ,
+          {"name":"斯特林","name2":"Raheem Sterling","value":"7000","score1":"6.68","var":"0.4357","mean":"7.13","Gaussian":"0.479068709","Max":"0.604395448","delta_gau":"0.207358839311541"}
+          ,
+          {"name":"斯通斯","name2":"John Stones","value":"3000","score1":"6.72","var":"0.14992","mean":"6.812","Gaussian":"1.001672486","Max":"1.030350955","delta_gau":"0.027833690135252"}
+          ,
+          {"name":"特里皮尔","name2":"Kieran Trippier","value":"1300","score1":"6.92","var":"0.250833333","mean":"6.916666667","Gaussian":"0.796549412","Max":"0.796567054","delta_gau":"0.000022148148997"}
+          ,
+          {"name":"特伦特·阿诺德","name2":"Trent Alexander-Arnold","value":"7000","score1":"6.16","var":"0","mean":"6.16","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"詹姆斯·麦迪逊","name2":"James Maddison","value":"5500","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}  
+        ]
+      },
+      {
+        "name": "巴西",
+        "name2": "Brazil",
+        "len":34.46,
+        "color2": "#6A5ACD",
+        "color": "rgb(245,209,0)",
+        "font_color": "black",
+        "t_value":113700,
+        "delta_r":-6,
+        "filter":6,
+        "children": [
+          {"name":"阿尔维斯","name2":"Dani Alves","value":"100","score1":"6.48","var":"0.3528","mean":"6.52","Gaussian":"0.670140525","Max":"0.671661842","delta_gau":"0.002265004693079"}
+          ,
+          {"name":"阿莱士·桑德罗","name2":"Alex Sandro","value":"450","score1":"7.12","var":"0.6717","mean":"7.21","Gaussian":"0.483847745","Max":"0.486773907","delta_gau":"0.006011336624359"}
+          ,
+          {"name":"阿利松","name2":"Alisson","value":"5000","score1":"6.37","var":"0.534158333","mean":"6.3725","Gaussian":"0.54585516","Max":"0.545858353","delta_gau":"0.000005850308169"}
+          ,
+          {"name":"埃德森","name2":"Ederson","value":"4500","score1":"6.58","var":"0","mean":"6.58","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"安东尼","name2":"Antony","value":"7500","score1":"6.37","var":"0.053366667","mean":"6.545","Gaussian":"1.296187386","Max":"1.72695064","delta_gau":"0.249435764974636"}
+          ,
+          {"name":"布雷默","name2":"Bremer","value":"4000","score1":"6.29","var":"0.00845","mean":"6.465","Gaussian":"0.708742496","Max":"4.339968828","delta_gau":"0.836694104520114"}
+          ,
+          {"name":"布鲁诺·吉马良斯","name2":"Bruno Guimarães","value":"6000","score1":"6.31","var":"0.0008","mean":"6.58","Gaussian":"2.30053E-19","Max":"14.10489869","delta_gau":"1.000000000000000"}
+          ,
+          {"name":"达尼洛","name2":"Danilo","value":"1200","score1":"6.7","var":"0.026233333","mean":"6.696666667","Gaussian":"2.462613501","Max":"2.463135075","delta_gau":"0.000211752251767"}
+          ,
+          {"name":"蒂亚戈·席尔瓦","name2":"Thiago Silva","value":"250","score1":"7.09","var":"0.0971","mean":"7.085","Gaussian":"1.280116341","Max":"1.280281145","delta_gau":"0.000128724978905"}
+          ,
+          {"name":"法比尼奥","name2":"Fabinho","value":"5500","score1":"6.47","var":"0","mean":"6.47","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"弗雷德","name2":"Fred","value":"2000","score1":"6.32","var":"0.0194","mean":"6.41","Gaussian":"2.32460694","Max":"2.864270959","delta_gau":"0.188412348860603"}
+          ,
+          {"name":"卡塞米罗","name2":"Casemiro","value":"5000","score1":"7.52","var":"0.201758333","mean":"7.5175","Gaussian":"0.888162633","Max":"0.88817639","delta_gau":"0.000015488707467"}
+          ,
+          {"name":"拉菲尼亚","name2":"Raphinha","value":"5000","score1":"6.87","var":"0.53412","mean":"7.028","Gaussian":"0.53326907","Max":"0.545877941","delta_gau":"0.023098333395749"}
+          ,
+          {"name":"里贝罗","name2":"Éverton Ribeiro","value":"450","score1":"6.2","var":"0","mean":"6.2","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"理查尔里森","name2":"Richarlison","value":"5500","score1":"7.39","var":"1.010491667","mean":"7.5425","Gaussian":"0.392329531","Max":"0.396870297","delta_gau":"0.011441436451428"}
+          ,
+          {"name":"罗德里戈","name2":"Rodrygo","value":"8000","score1":"7.39","var":"1.010491667","mean":"6.316","Gaussian":"0.224272008","Max":"0.396870297","delta_gau":"0.434898479849760"}
+          ,
+          {"name":"马丁内利","name2":"Gabriel Martinelli","value":"6000","score1":"6.3","var":"0.179433333","mean":"6.303333333","Gaussian":"0.941781068","Max":"0.941810228","delta_gau":"0.000030961190203"}
+          ,
+          {"name":"马尔基尼奥斯","name2":"Marquinhos","value":"7000","score1":"6.55","var":"0.35587","mean":"6.548","Gaussian":"0.668754681","Max":"0.668758439","delta_gau":"0.000005620013994"}
+          ,
+          {"name":"米利唐","name2":"Éder Militão","value":"6000","score1":"6.78","var":"0.254158333","mean":"6.7825","Gaussian":"0.791329668","Max":"0.791339398","delta_gau":"0.000012295409525"}
+          ,
+          {"name":"内马尔","name2":"Neymar","value":"7500","score1":"7.36","var":"1.33","mean":"7.6","Gaussian":"0.338520421","Max":"0.345930731","delta_gau":"0.021421367704427"}
+          ,
+          {"name":"帕奎塔","name2":"Lucas Paquetá","value":"4500","score1":"7.23","var":"1.240891667","mean":"7.4275","Gaussian":"0.352551213","Max":"0.358136043","delta_gau":"0.015594156831017"}
+          ,
+          {"name":"佩德罗","name2":"Pedro","value":"2000","score1":"6.33","var":"0.21125","mean":"6.325","Gaussian":"0.867942407","Max":"0.867993766","delta_gau":"0.000059169847029"}
+          ,
+          {"name":"热苏斯","name2":"Gabriel Jesus","value":"7500","score1":"6.46","var":"0.023333333","mean":"6.733333333","Gaussian":"0.526795165","Max":"2.611719761","delta_gau":"0.798295677482580"}
+          ,
+          {"name":"特莱斯","name2":"Alex Telles","value":"1400","score1":"6.27","var":"0.03125","mean":"6.265","Gaussian":"2.255881258","Max":"2.256783791","delta_gau":"0.000399920010666"}
+          ,
+          {"name":"维弗顿","name2":"Weverton","value":"350","score1":"6.01","var":"0","mean":"6.1","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"维尼修斯","name2":"Vinicius Junior","value":"12000","score1":"7.21","var":"0.7982","mean":"7.21","Gaussian":"0.446538699","Max":"0.446538699","delta_gau":"0.000000000000000"}
+            
+        ]
+      }
+      ,
+      {
+        
+        "name": "法国",
+        "name2": "France",
+        "color": "rgb(50,107,199)",  
+        "font_color": "white",
+        "len":42.05,
+        "color2": "#77bc45",
+        "t_value":106600,
+        "delta_r":2,
+        "filter": 8,
+        "children": [
+          {"name":"阿雷奥拉","name2":"Alphonse Areola","value":"800","score1":"0","var":"0","mean":"7.2","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"登贝莱","name2":"Ousmane Dembélé","value":"6000","score1":"6.86","var":"1.127957143","mean":"7.077142857","Gaussian":"0.367867521","Max":"0.375637261","delta_gau":"0.020684155639193"}
+          ,
+          {"name":"迪萨西","name2":"Axel Disasi","value":"2500","score1":"6.36","var":"0.4816","mean":"6.36","Gaussian":"0.574872754","Max":"0.574872754","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"格里兹曼","name2":"Antoine Griezmann","value":"2500","score1":"7.52","var":"0.755533333","mean":"7.42","Gaussian":"0.45594668","Max":"0.458974069","delta_gau":"0.006595992015565"}
+          ,
+          {"name":"贡多齐","name2":"Mattéo Guendouzi","value":"2500","score1":"6.15","var":"0.26645","mean":"6.515","Gaussian":"0.601912666","Max":"0.772871161","delta_gau":"0.221199216928595"}
+          ,
+          {"name":"吉鲁","name2":"Olivier Giroud","value":"400","score1":"7.19","var":"0.880936667","mean":"6.941666667","Gaussian":"0.410432137","Max":"0.425052545","delta_gau":"0.034396708967046"}
+          ,
+          {"name":"金斯利·科曼","name2":"Kingsley Coman","value":"6000","score1":"6.33","var":"0.087576667","mean":"6.438333333","Gaussian":"1.260726701","Max":"1.348095808","delta_gau":"0.064809271556168"}
+          ,
+          {"name":"卡马温加","name2":"Eduardo Camavinga","value":"5000","score1":"7.49","var":"0.354533333","mean":"7.303333333","Gaussian":"0.637888306","Max":"0.670017935","delta_gau":"0.047953386119802"}
+          ,
+          {"name":"科纳特","name2":"Ibrahima Konaté","value":"3500","score1":"6.98","var":"0.422346667","mean":"6.856666667","Gaussian":"0.60292004","Max":"0.613875681","delta_gau":"0.017846677873712"}
+          ,
+          {"name":"孔德","name2":"Jules Koundé","value":"6000","score1":"6.87","var":"0.310291667","mean":"6.6575","Gaussian":"0.665930364","Max":"0.71619273","delta_gau":"0.070179944504741"}
+          ,
+          {"name":"拉比奥","name2":"Adrien Rabiot","value":"2500","score1":"7.17","var":"0.84778","mean":"7.224","Gaussian":"0.432540211","Max":"0.433284728","delta_gau":"0.001718307809290"}
+          ,
+          {"name":"卢卡斯·埃尔南德斯","name2":"Lucas Hernández","value":"5000","score1":"5.91","var":"0.734633333","mean":"6.633333333","Gaussian":"0.32600618","Max":"0.46545709","delta_gau":"0.299599926849169"}
+          ,
+          {"name":"洛里","name2":"Hugo Lloris","value":"700","score1":"6.66","var":"0.29322","mean":"6.508","Gaussian":"0.70828534","Max":"0.73674665","delta_gau":"0.038631068334095"}
+          ,
+          {"name":"马库斯·图拉姆","name2":"Marcus Thuram","value":"3200","score1":"6.55","var":"0.33967","mean":"6.548","Gaussian":"0.684516328","Max":"0.684520358","delta_gau":"0.000005888050496"}
+          ,
+          {"name":"曼丹达","name2":"Steve Mandanda","value":"150","score1":"6.44","var":"0","mean":"6.44","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"姆巴佩","name2":"Kylian Mbappé","value":"18000","score1":"8.03","var":"1.751257143","mean":"7.957142857","Gaussian":"0.30101062","Max":"0.301467157","delta_gau":"0.001514381534165"}
+          ,
+          {"name":"穆阿尼","name2":"Randal Kolo Muani","value":"3700","score1":"7.17","var":"0.3618","mean":"6.94","Gaussian":"0.616496836","Max":"0.66325523","delta_gau":"0.070498342660698"}
+          ,
+          {"name":"帕瓦尔","name2":"Benjamin Pavard","value":"3500","score1":"6.4","var":"0.00125","mean":"6.375","Gaussian":"8.787924917","Max":"11.28391895","delta_gau":"0.221199216928601"}
+          ,
+          {"name":"琼阿梅尼","name2":"Aurélien Tchouameni","value":"9000","score1":"6.91","var":"0.394256667","mean":"6.908333333","Gaussian":"0.635365913","Max":"0.635368152","delta_gau":"0.000003522797606"}
+          ,
+          {"name":"萨利巴","name2":"William Saliba","value":"5000","score1":"6.37","var":"0.00405","mean":"6.325","Gaussian":"4.882180509","Max":"6.268843863","delta_gau":"0.221199216928595"}
+          ,
+          {"name":"特奥·埃尔南德斯","name2":"Theo Hernández","value":"6000","score1":"7.24","var":"0.848146667","mean":"7.316666667","Gaussian":"0.431692619","Max":"0.43319106","delta_gau":"0.003459075120935"}
+          ,
+          {"name":"瓦拉内","name2":"Raphaël Varane","value":"4000","score1":"6.43","var":"0.20911","mean":"6.435","Gaussian":"0.872371769","Max":"0.872423918","delta_gau":"0.000059775364164"}
+          ,
+          {"name":"韦勒图","name2":"Jordan Veretout","value":"1400","score1":"6.02","var":"0","mean":"6.2","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"乌帕梅卡诺","name2":"Dayot Upamecano","value":"6000","score1":"6.67","var":"0.269491667","mean":"6.7375","Gaussian":"0.762028164","Max":"0.768497208","delta_gau":"0.008417785722730"}
+          ,
+          {"name":"优素福·福法纳","name2":"Youssouf Fofana","value":"2500","score1":"6.35","var":"0.2436","mean":"6.42","Gaussian":"0.800218188","Max":"0.808306968","delta_gau":"0.010007064031556"}
+
+      
+            
+        ]
+      }
+      ,
+      {
+        "name": "葡萄牙",
+        "name2": "Portuguesa",
+        "len":72.61,
+        "color2": "#0000ff",
+        "color": "rgb(0,139,69)",
+        "font_color": "white",
+        "t_value":91100,
+        "delta_r":1,
+        "filter": 1,
+        "children": [
+          {"name":"C·罗纳尔多","name2":"Cristiano Ronaldo","value":"2000","score1":"6.29","var":"0.70033","mean":"6.416","Gaussian":"0.471347297","Max":"0.476720249","delta_gau":"0.011270661315958"}
+          ,
+          {"name":"安德烈·席尔瓦","name2":"André Silva","value":"2400","score1":"6.03","var":"0","mean":"6.3","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"安东尼奥·席尔瓦","name2":"António Silva","value":"1500","score1":"6.25","var":"0","mean":"6.25","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"奥尔塔","name2":"Ricardo Horta","value":"2000","score1":"6.48","var":"0.528933333","mean":"6.476666667","Gaussian":"0.548542062","Max":"0.548547824","delta_gau":"0.000010503263896"}
+          ,
+          {"name":"奥塔维奥","name2":"Otávio","value":"3000","score1":"6.93","var":"0.009025","mean":"6.8875","Gaussian":"3.799547125","Max":"4.199439795","delta_gau":"0.095225241665411"}
+          ,
+          {"name":"贝尔纳多·席尔瓦","name2":"Bernardo Silva","value":"8000","score1":"6.45","var":"1.14057","mean":"6.842","Gaussian":"0.349219669","Max":"0.373554517","delta_gau":"0.065144035125958"}
+          ,
+          {"name":"布鲁诺·费尔南德斯","name2":"Bruno Fernandes","value":"7500","score1":"8.12","var":"0.109433333","mean":"7.923333333","Gaussian":"1.010630275","Max":"1.205980127","delta_gau":"0.161984304625613"}
+          ,
+          {"name":"达洛特","name2":"Diogo Dalot","value":"3200","score1":"7.27","var":"0.34","mean":"7.3","Gaussian":"0.68328314","Max":"0.684188084","delta_gau":"0.001322653932996"}
+          ,
+          {"name":"迪奥戈·科斯塔","name2":"Diogo Costa","value":"3500","score1":"6.24","var":"0.45848","mean":"6.366","Gaussian":"0.579075924","Max":"0.589189186","delta_gau":"0.017164710947510"}
+          ,
+          {"name":"贡萨洛·拉莫斯","name2":"Gonçalo Ramos","value":"3000","score1":"6.98","var":"3.542691667","mean":"5.1125","Gaussian":"0.129562864","Max":"0.211957255","delta_gau":"0.388731167286597"}
+          ,
+          {"name":"坎塞洛","name2":"João Cancelo","value":"7000","score1":"6.95","var":"0.141558333","mean":"6.7825","Gaussian":"0.960305906","Max":"1.060345127","delta_gau":"0.094345905288513"}
+          ,
+          {"name":"拉斐尔·格雷罗","name2":"Raphaël Guerreiro","value":"2000","score1":"6.96","var":"0.794891667","mean":"6.8975","Gaussian":"0.44636886","Max":"0.44746698","delta_gau":"0.002454079640541"}
+          ,
+          {"name":"拉斐尔·莱奥","name2":"Rafael Leão","value":"8500","score1":"6.58","var":"0.39625","mean":"6.71","Gaussian":"0.620396061","Max":"0.633768029","delta_gau":"0.021099152684246"}
+          ,
+          {"name":"鲁本·迪亚斯","name2":"Rúben Dias","value":"7500","score1":"6.46","var":"0.013491667","mean":"6.3575","Gaussian":"2.326938748","Max":"3.434647391","delta_gau":"0.322510149310016"}
+          ,
+          {"name":"马修斯·努内斯","name2":"Matheus Nunes","value":"4500","score1":"6.14","var":"0.06125","mean":"6.525","Gaussian":"0.480690562","Max":"1.611988422","delta_gau":"0.701802720570114"}
+          ,
+          {"name":"内维斯","name2":"Rúben Neves","value":"4000","score1":"6.27","var":"0.13863","mean":"6.546","Gaussian":"0.814077591","Max":"1.071485635","delta_gau":"0.240234712801042"}
+          ,
+          {"name":"帕利尼亚","name2":"João Palhinha","value":"2800","score1":"6.15","var":"0.031033333","mean":"6.303333333","Gaussian":"1.550558652","Max":"2.264648239","delta_gau":"0.315320310950335"}
+          ,
+          {"name":"帕特里西奥","name2":"Rui Patrício","value":"500","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"佩佩","name2":"Pepe","value":"100","score1":"6.96","var":"0.3329","mean":"6.955","Gaussian":"0.691419717","Max":"0.691445679","delta_gau":"0.000037548108510"}
+          ,
+          {"name":"若昂·马里奥","name2":"João Mário","value":"1200","score1":"6.13","var":"0.125","mean":"6.13","Gaussian":"1.128391895","Max":"1.128391895","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"若奥·菲利克斯","name2":"João Félix","value":"5000","score1":"7.12","var":"1.316025","mean":"7.1225","Gaussian":"0.347761791","Max":"0.347762617","delta_gau":"0.000002374572132"}
+          ,
+          {"name":"若泽·萨","name2":"José Sá","value":"1800","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"威廉·卡瓦略","name2":"William Carvalho","value":"1600","score1":"6.6","var":"0.032825","mean":"6.7775","Gaussian":"1.362665573","Max":"2.201976082","delta_gau":"0.381162409255207"}
+          ,
+          {"name":"维蒂尼亚","name2":"Vitinha","value":"4500","score1":"6.4","var":"0.145033333","mean":"6.403333333","Gaussian":"1.047525045","Max":"1.047565171","delta_gau":"0.000038304636860"}
+            
+            
+            
+            
+        ]
+      }
+      ,
+
+      {
+        "name": "阿根廷",
+        "name2": "Argentina",
+        "len":63.3,
+        "color2": "#66009d",
+        "color": "rgb(159,205,238)",
+        "font_color": "black",
+        "filter": 5,
+        "delta_r":2,
+        "t_value":63320,
+        "children": [
+          {"name":"阿尔马达","name2":"Thiago Almada","value":"1500","score1":"6.18","var":"0","mean":"6.18","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"阿尔玛尼","name2":"Franco Armani","value":"320","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"阿库尼亚","name2":"Marcos Acuña","value":"1400","score1":"6.8","var":"0.343586667","mean":"6.916666667","Gaussian":"0.667259203","Max":"0.68060763","delta_gau":"0.019612513709047"}
+          ,
+          {"name":"奥塔门迪","name2":"Nicolás Otamendi","value":"300","score1":"6.8","var":"0.394980952","mean":"6.798571429","Gaussian":"0.6347837","Max":"0.63478534","delta_gau":"0.000002583433049"}
+          ,
+          {"name":"德保罗","name2":"Rodrigo de Paul","value":"4000","score1":"6.72","var":"0.137128571","mean":"6.715714286","Gaussian":"1.077263398","Max":"1.077335546","delta_gau":"0.000066969019572"}
+          ,
+          {"name":"迪巴拉","name2":"Paulo Dybala","value":"3000","score1":"6.65","var":"0.0018","mean":"6.65","Gaussian":"9.403265794","Max":"9.403265794","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"迪玛利亚","name2":"Ángel Di María","value":"1000","score1":"7.13","var":"0.68058","mean":"7.134","Gaussian":"0.483582157","Max":"0.483587842","delta_gau":"0.000011754610746"}
+          ,
+          {"name":"恩佐·费尔南德斯","name2":"Enzo Fernández","value":"5500","score1":"7.06","var":"0.444247619","mean":"7.058571429","Gaussian":"0.598551347","Max":"0.598552722","delta_gau":"0.000002296932944"}
+          ,
+          {"name":"弗伊特","name2":"Juan Foyth","value":"2500","score1":"6.16","var":"0","mean":"6.16","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"戈麦斯","name2":"Papu Gómez","value":"400","score1":"6.38","var":"0.0578","mean":"6.38","Gaussian":"1.659399846","Max":"1.659399846","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"圭多·罗德里格斯","name2":"Guido Rodríguez","value":"2800","score1":"6.59","var":"0","mean":"6.59","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"科雷亚","name2":"Ángel Correa","value":"4000","score1":"6.22","var":"0","mean":"6.22","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"劳塔罗·马丁内斯","name2":"Lautaro Martínez","value":"7500","score1":"6.14","var":"0.08347","mean":"6.185","Gaussian":"1.364211542","Max":"1.380860345","delta_gau":"0.012056833451476"}
+          ,
+          {"name":"利桑德罗·马丁内斯","name2":"Lisandro Martínez","value":"5000","score1":"6.51","var":"0.08187","mean":"6.512","Gaussian":"1.394254196","Max":"1.394288256","delta_gau":"0.000024428674377"}
+          ,
+          {"name":"鲁利","name2":"Gerónimo Rulli","value":"1000","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"罗梅罗","name2":"Cristian Romero","value":"6000","score1":"6.61","var":"0.224947619","mean":"6.691428571","Gaussian":"0.828845489","Max":"0.841151579","delta_gau":"0.014630050404910"}
+          ,
+          {"name":"马丁内斯","name2":"Emiliano Martínez","value":"2800","score1":"6.54","var":"0.403290476","mean":"6.537142857","Gaussian":"0.628205286","Max":"0.628211644","delta_gau":"0.000010120774581"}
+          ,
+          {"name":"麦卡利斯特","name2":"Alexis Mac Allister","value":"4200","score1":"7.12","var":"0.437816667","mean":"7.121666667","Gaussian":"0.602930761","Max":"0.602932674","delta_gau":"0.000003172301994"}
+          ,
+          {"name":"梅西","name2":"Lionel Messi","value":"5000","score1":"8.31","var":"0.23082381","mean":"8.312857143","Gaussian":"0.830361075","Max":"0.830375758","delta_gau":"0.000017682736308"}
+          ,
+          {"name":"蒙蒂埃尔","name2":"Gonzalo Montiel","value":"1200","score1":"6.24","var":"0.033133333","mean":"6.37","Gaussian":"1.698338288","Max":"2.191706532","delta_gau":"0.225106891495998"}
+          ,
+          {"name":"纳韦尔·莫利纳","name2":"Nahuel Molina","value":"2200","score1":"6.54","var":"0.328333333","mean":"6.55","Gaussian":"0.696131588","Max":"0.696237606","delta_gau":"0.000152272669454"}
+          ,
+          {"name":"帕拉西奥斯","name2":"Exequiel Palacios","value":"1500","score1":"6.21","var":"0.002433333","mean":"6.206666667","Gaussian":"8.069054553","Max":"8.087498101","delta_gau":"0.002280501032941"}
+          ,
+          {"name":"帕雷德斯","name2":"Leandro Paredes","value":"1500","score1":"6.79","var":"0.08893","mean":"6.794","Gaussian":"1.33767851","Max":"1.337798851","delta_gau":"0.000089954348108"}
+          ,
+          {"name":"佩塞利亚","name2":"Germán Pezzella","value":"500","score1":"5.89","var":"0.2197","mean":"6.07","Gaussian":"0.790635665","Max":"0.851137913","delta_gau":"0.071083953471471"}
+          ,
+          {"name":"塔利亚菲科","name2":"Nicolás Tagliafico","value":"900","score1":"6.48","var":"0.441946667","mean":"6.643333333","Gaussian":"0.582266901","Max":"0.600108852","delta_gau":"0.029731191306415"}
+          ,
+          {"name":"朱利安·阿尔瓦雷斯","name2":"Julián Álvarez","value":"5000","score1":"6.97","var":"0.754828571","mean":"6.965714286","Gaussian":"0.459182698","Max":"0.459188285","delta_gau":"0.000012166494427"}
+                   ]
+      }
+      ,
+      
+      {
+        "name": "荷兰",
+        "name2": "Netherlands",
+        "len":78.22,
+        "color2": "#ef1621",
+        "color":"rgb(242,107,23)",
+
+        "font_color": "white",
+        "filter": 4,
+        "delta_r":3,
+        "t_value":58425,
+        "children": [
+          {"name":"贝尔温","name2":"Steven Bergwijn","value":"2700","score1":"6.03","var":"0.051158333","mean":"6.0275","Gaussian":"1.763722453","Max":"1.763830193","delta_gau":"0.000061083001998"}
+          ,
+          {"name":"博古伊斯","name2":"Steven Berghuis","value":"1400","score1":"6.3","var":"0.031666667","mean":"6.46","Gaussian":"1.496467839","Max":"2.241887353","delta_gau":"0.332496417753655"}
+          ,
+          {"name":"布林德","name2":"Daley Blind","value":"600","score1":"7.19","var":"1.34833","mean":"7.276","Gaussian":"0.342630285","Max":"0.34357129","delta_gau":"0.002738894387413"}
+          ,
+          {"name":"德弗里","name2":"Stefan de Vrij","value":"1500","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"德里赫特","name2":"Matthijs de Ligt","value":"7000","score1":"6.42","var":"0.04205","mean":"6.645","Gaussian":"1.065622082","Max":"1.945503268","delta_gau":"0.452264049362415"}
+          ,
+          {"name":"德佩","name2":"Memphis Depay","value":"2000","score1":"6.5","var":"0.75217","mean":"6.502","Gaussian":"0.459997854","Max":"0.459999078","delta_gau":"0.000002658969835"}
+          ,
+          {"name":"德容恩","name2":"Marten de Roon","value":"1200","score1":"6.45","var":"0.15982","mean":"6.578","Gaussian":"0.9480658","Max":"0.997928444","delta_gau":"0.049966151358158"}
+          ,
+          {"name":"邓弗里斯","name2":"Denzel Dumfries","value":"2800","score1":"6.63","var":"2.47575","mean":"6.63","Gaussian":"0.253548807","Max":"0.253548807","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"范迪克","name2":"Virgil van Dijk","value":"5000","score1":"6.81","var":"0.41648","mean":"6.934","Gaussian":"0.60687751","Max":"0.618184184","delta_gau":"0.018290137359160"}
+          ,
+          {"name":"弗兰基·德容","name2":"Frenkie de Jong","value":"5000","score1":"7.27","var":"0.56288","mean":"7.304","Gaussian":"0.531203705","Max":"0.531749458","delta_gau":"0.001026334811108"}
+          ,
+          {"name":"哈维·西蒙斯","name2":"Xavi Simons","value":"1800","score1":"6.13","var":"0","mean":"6.13","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"加克波","name2":"Cody Gakpo","value":"6000","score1":"7.53","var":"0.40678","mean":"7.526","Gaussian":"0.625499011","Max":"0.625511313","delta_gau":"0.000019666456890"}
+          ,
+          {"name":"贾斯汀·比尔罗","name2":"Justin Bijlow","value":"1300","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"杰雷米·弗林蓬","name2":"Jeremie Frimpong","value":"2500","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"克拉森","name2":"Davy Klaassen","value":"1200","score1":"6.75","var":"0.385533333","mean":"6.91","Gaussian":"0.621534286","Max":"0.642516076","delta_gau":"0.032655664806135"}
+          ,
+          {"name":"肯内特·泰勒","name2":"Kenneth Taylor","value":"1400","score1":"6.06","var":"0","mean":"6.6","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"库普梅纳斯","name2":"Teun Koopmeiners","value":"3000","score1":"6.66","var":"0.29293","mean":"6.664","Gaussian":"0.737091118","Max":"0.737111249","delta_gau":"0.000027309905984"}
+          ,
+          {"name":"卢克·德容","name2":"Luuk de Jong","value":"400","score1":"6.92","var":"0","mean":"6.92","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"马拉西亚","name2":"Tyrell Malacia","value":"2200","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"纳坦·阿克","name2":"Nathan Aké","value":"3000","score1":"6.83","var":"0.27237","mean":"6.992","Gaussian":"0.728471013","Max":"0.764425787","delta_gau":"0.047035009421364"}
+          ,
+          {"name":"诺阿·朗","name2":"Noa Lang","value":"1500","score1":"6.24","var":"0","mean":"6.24","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"诺佩特","name2":"Andries Noppert","value":"500","score1":"6.9","var":"0.38473","mean":"6.936","Gaussian":"0.642104121","Max":"0.643186527","delta_gau":"0.001682880445180"}
+          ,
+          {"name":"帕斯维尔","name2":"Remko Pasveer","value":"125","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"维格霍斯特","name2":"Wout Weghorst","value":"1400","score1":"6.66","var":"1.678691667","mean":"6.7025","Gaussian":"0.307748433","Max":"0.307914044","delta_gau":"0.000537848685184"}
+          ,
+          {"name":"文森特·扬森","name2":"Vincent Janssen","value":"600","score1":"6.16","var":"0.10125","mean":"6.155","Gaussian":"1.253613996","Max":"1.253768773","delta_gau":"0.000123449169648"}
+          ,
+          {"name":"朱力安·蒂姆","name2":"Jurrien Timber","value":"4500","score1":"6.88","var":"0.278833333","mean":"6.875","Gaussian":"0.755480311","Max":"0.75551418","delta_gau":"0.000044828642560"}  
+            
+        ]
+      }
+      ,
+      {
+        "name": "克罗地亚",
+        "name2": "Croatia",
+        "len":45.35,
+        "delta_r":12,
+        "color2": "#C71585",
+        "color": "rgb(236,28,35)",
+        "font_color": "white",
+        "filter": 4,
+        "t_value":44500,
+        "children": [
+          {"name":"埃尔里奇","name2":"M.Erlic","value":"550","score1":"0","var":"0","mean":"5.92","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"奥尔西奇","name2":"M.Orsic","value":"1000","score1":"6.62","var":"0.44707","mean":"6.748","Gaussian":"0.585826882","Max":"0.59666038","delta_gau":"0.018156893197674"}
+          ,
+          {"name":"巴里西奇","name2":"B.Barisic","value":"650","score1":"7.01","var":"0.02","mean":"7","Gaussian":"2.813936097","Max":"2.820979738","delta_gau":"0.002496877602540"}
+          ,
+          {"name":"彼得科维奇","name2":"B.Petkovic","value":"600","score1":"6.47","var":"0.111714286","mean":"6.578571429","Gaussian":"1.132264483","Max":"1.19360494","delta_gau":"0.051390920933121"}
+          ,
+          {"name":"博尔纳·索萨","name2":"B.Sosa","value":"2000","score1":"6.76","var":"0.27973","mean":"6.716","Gaussian":"0.751696581","Max":"0.754302317","delta_gau":"0.003454499188808"}
+          ,
+          {"name":"布迪米尔","name2":"A.Budimir","value":"600","score1":"6.23","var":"0.0242","mean":"6.23","Gaussian":"2.564527035","Max":"2.564527035","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"布罗佐维奇","name2":"M.Brozovic","value":"3500","score1":"6.87","var":"0.223586667","mean":"7.233333333","Gaussian":"0.628033629","Max":"0.843707702","delta_gau":"0.255626530862596"}
+          ,
+          {"name":"弗拉西奇","name2":"N.Vlasic","value":"2000","score1":"6.26","var":"0.10203","mean":"6.476","Gaussian":"0.993698247","Max":"1.248967166","delta_gau":"0.204384011217546"}
+          ,
+          {"name":"格瓦迪奥尔","name2":"Josko Gvardiol","value":"7500","score1":"6.98","var":"0.178576667","mean":"6.998333333","Gaussian":"0.943178518","Max":"0.944066546","delta_gau":"0.000940640824035"}
+          ,
+          {"name":"科瓦契奇","name2":"M.Kovacic","value":"4000","score1":"6.96","var":"0.23951","mean":"7.025","Gaussian":"0.808020952","Max":"0.815179293","delta_gau":"0.008781308123021"}
+          ,
+          {"name":"克拉马里奇","name2":"A.Kramaric","value":"900","score1":"6.56","var":"0.779466667","mean":"6.643333333","Gaussian":"0.449864349","Max":"0.45187279","delta_gau":"0.004444705767194"}
+          ,
+          {"name":"克里斯蒂安·贾基奇","name2":"K.Jakic","value":"900","score1":"6","var":"0.4608","mean":"6.48","Gaussian":"0.457704423","Max":"0.587704112","delta_gau":"0.221199216928595"}
+          ,
+          {"name":"里瓦贾","name2":"M.Livaja","value":"800","score1":"6.36","var":"0.471746667","mean":"6.586666667","Gaussian":"0.550061322","Max":"0.580845387","delta_gau":"0.052998724761167"}
+          ,
+          {"name":"利瓦科维奇","name2":"D.Livakovic","value":"1400","score1":"7","var":"0.889914286","mean":"6.958571429","Gaussian":"0.422495489","Max":"0.422903107","delta_gau":"0.000963856451381"}
+          ,
+          {"name":"卢卡·苏西奇","name2":"L.Sucic","value":"2000","score1":"0","var":"0","mean":"6.92","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"洛夫伦","name2":"D.Lovren","value":"350","score1":"6.97","var":"0.388456667","mean":"6.911666667","Gaussian":"0.637296484","Max":"0.64009388","delta_gau":"0.004370290273162"}
+          ,
+          {"name":"马耶尔","name2":"L.Majer","value":"2200","score1":"6.36","var":"0.143416667","mean":"6.418333333","Gaussian":"1.041029424","Max":"1.05345297","delta_gau":"0.011793166768836"}
+          ,
+          {"name":"莫德里奇","name2":"L.Modric","value":"1000","score1":"6.95","var":"0.274380952","mean":"6.968571429","Gaussian":"0.761140849","Max":"0.761619378","delta_gau":"0.000628304543088"}
+          ,
+          {"name":"帕萨利奇","name2":"M.Pasalic","value":"2500","score1":"6.35","var":"0.091380952","mean":"6.348571429","Gaussian":"1.319721451","Max":"1.319736188","delta_gau":"0.000011166467888"}
+          ,
+          {"name":"佩里西奇","name2":"I.Perisic","value":"1000","score1":"7.04","var":"0.585590476","mean":"7.057142857","Gaussian":"0.521205497","Max":"0.521336296","delta_gau":"0.000250892642268"}
+          ,
+          {"name":"斯坦尼西奇","name2":"J.Stanisic","value":"800","score1":"6.7","var":"0","mean":"6.7","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"维达","name2":"D.Vida","value":"200","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"伊维卡·伊武西奇","name2":"I.Ivusic","value":"500","score1":"0","var":"0","mean":"6.72","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"伊沃·格尔比奇","name2":"I.Grbic","value":"350","score1":"0","var":"0","mean":"6.9","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"尤拉诺维奇","name2":"J.Juranovic","value":"900","score1":"6.72","var":"0.23437","mean":"6.712","Gaussian":"0.823957209","Max":"0.824069716","delta_gau":"0.000136526925458"}
+          ,
+          {"name":"约瑟普·苏塔罗","name2":"J.Sutalo","value":"1800","score1":"6.36","var":"0","mean":"6.36","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+            
+            
+            
+            
+             
+        ]
+      }
+      ,
+      {
+        "name": "摩洛哥",
+        "name2": "Morocco",
+        "len":56.71,
+        "color2": "#f58321",
+        "color": "rgb(134,39,33)",
+        "font_color": "white",
+        "filter": 2,
+        "delta_r":19,
+        "t_value":24100,
+        "children": [
+          {"name":"阿布德","name2":"A.Ezzalzouli","value":"800","score1":"6.14","var":"0.026766667","mean":"6.165","Gaussian":"2.4101687","Max":"2.438472245","delta_gau":"0.011607080727612"}
+          ,
+          {"name":"阿布赫拉尔","name2":"Z.Aboukhlal","value":"350","score1":"6.33","var":"0.573225","mean":"6.2575","Gaussian":"0.524519028","Max":"0.526929367","delta_gau":"0.004574311092805"}
+          ,
+          {"name":"阿德拉扎克·哈姆达拉","name2":"A.Hamdallah","value":"300","score1":"6.15","var":"0.12678","mean":"6.334","Gaussian":"0.980395809","Max":"1.120442544","delta_gau":"0.124992339355014"}
+          ,
+          {"name":"阿格尔德","name2":"N.Aguerd","value":"2500","score1":"6.69","var":"0.282891667","mean":"6.6875","Gaussian":"0.750067054","Max":"0.75007534","delta_gau":"0.000011046570487"}
+          ,
+          {"name":"阿姆拉巴特","name2":"S.Amrabat","value":"2500","score1":"6.6","var":"0.185947619","mean":"6.518571429","Gaussian":"0.908817142","Max":"0.925165978","delta_gau":"0.017671246877727"}
+          ,
+          {"name":"阿纳斯·扎鲁里","name2":"A.Zaroury","value":"400","score1":"6.15","var":"0","mean":"6.15","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"阿什拉夫","name2":"Achraf Hakimi","value":"7000","score1":"7.05","var":"0.330428571","mean":"7.015714286","Gaussian":"0.69279327","Max":"0.694026684","delta_gau":"0.001777184916784"}
+          ,
+          {"name":"阿什拉夫·达里","name2":"A.Dari","value":"250","score1":"6.67","var":"0.294533333","mean":"6.693333333","Gaussian":"0.734423124","Max":"0.735102227","delta_gau":"0.000923822297469"}
+          ,
+          {"name":"埃尔·亚米克","name2":"J.E.Yamiq","value":"120","score1":"6.59","var":"0.099176667","mean":"6.501666667","Gaussian":"1.217940392","Max":"1.266806287","delta_gau":"0.038574086273454"}
+          ,
+          {"name":"拜德尔·贝努恩","name2":"B.Benoun","value":"100","score1":"5.96","var":"0.1152","mean":"5.86","Gaussian":"1.125483515","Max":"1.175408224","delta_gau":"0.042474357663447"}
+          ,
+          {"name":"比拉尔·汉努斯","name2":"B.E.Khannouss","value":"450","score1":"5.94","var":"0","mean":"5.94","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"博诺","name2":"Bono","value":"1500","score1":"6.75","var":"0.751496667","mean":"6.381666667","Gaussian":"0.420483867","Max":"0.460205109","delta_gau":"0.086312038951905"}
+          ,
+          {"name":"布法尔","name2":"S.Boufal","value":"1000","score1":"6.62","var":"0.206361905","mean":"6.614285714","Gaussian":"0.878144207","Max":"0.878213685","delta_gau":"0.000079112880763"}
+          ,
+          {"name":"恩尼西里","name2":"Y.En-Nesyri","value":"1500","score1":"6.82","var":"0.385666667","mean":"6.57","Gaussian":"0.592404941","Max":"0.642405","delta_gau":"0.077832610960840"}
+          ,
+          {"name":"罗曼·赛斯","name2":"R.Saïss","value":"650","score1":"6.8","var":"0.850706667","mean":"6.686666667","Gaussian":"0.429285714","Max":"0.432538776","delta_gau":"0.007520855052613"}
+          ,
+          {"name":"马兹拉维","name2":"N.Mazraoui","value":"2800","score1":"6.77","var":"0.34136","mean":"6.67","Gaussian":"0.67289517","Max":"0.682823799","delta_gau":"0.014540543415391"}
+          ,
+          {"name":"穆尼尔","name2":"Munir","value":"120","score1":"7.26","var":"0","mean":"7.26","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"齐耶赫","name2":"H.Ziyech","value":"2000","score1":"6.82","var":"0.976347619","mean":"6.881428571","Gaussian":"0.40297071","Max":"0.40375018","delta_gau":"0.001930575574381"}
+          ,
+          {"name":"萨比里","name2":"A.Sabiri","value":"400","score1":"6.47","var":"0.53378","mean":"6.614","Gaussian":"0.535547746","Max":"0.546051766","delta_gau":"0.019236307390289"}
+          ,
+          {"name":"塞利姆·阿马拉","name2":"S.Amallah","value":"650","score1":"6.43","var":"0.010647619","mean":"6.421428571","Gaussian":"3.852923452","Max":"3.866239143","delta_gau":"0.003444093805150"}
+          ,
+          {"name":"塔格诺提","name2":"A.R.Tagnaouti","value":"180","score1":"0","var":"0","mean":"0","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"瓦利德·切迪拉","name2":"W. Cheddira","value":"600","score1":"5.4","var":"0","mean":"6.23","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"乌纳西","name2":"A.Ounahi","value":"1500","score1":"6.7","var":"0.036490476","mean":"6.717142857","Gaussian":"2.080062556","Max":"2.088455377","delta_gau":"0.004018674018945"}
+          ,
+          {"name":"亚希亚·阿迪亚特·阿拉","name2":"Y.A.Allah","value":"250","score1":"6.41","var":"0.13688","mean":"6.27","Gaussian":"1.003809752","Max":"1.078313311","delta_gau":"0.069092682439498"}
+          ,
+          {"name":"叶海亚·贾布拉内","name2":"Y.Jabrane","value":"190","score1":"6.01","var":"0","mean":"5.99","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          ,
+          {"name":"伊利亚斯·切尔","name2":"I.Chair","value":"1000","score1":"6.09","var":"0","mean":"6.9","Gaussian":"0","Max":"0","delta_gau":"0.000000000000000"}
+          
+        ]
+      }
+      
+    ]
+  }

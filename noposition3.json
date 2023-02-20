@@ -1,0 +1,317 @@
+{
+    "name": "世界杯8强",
+    "children": [
+      {
+        "name": "法国",
+        "name2": "France",
+        "color": "#77bc45",
+        "t_value":106600,
+        "filter": 8,
+        "children": [
+          {"name": "洛里","name2":"Hugo Lloris", "value":700,"score1":6.39,"score2":	7.42,"score3":7.42},
+          {"name": "孔德","name2":"Jules Koundé", "value": 6000,"score1":6.54,"score2":7.58,"score3":7.12},
+          {"name": "乌帕梅卡诺","name2":"Dayot Upamecano", "value": 6000,"score1":6.34	,"score2":0,"score3":6.4},
+          {"name": "瓦拉内","name2":"Raphaël Varane", "value": 4000,"score1":6,"score2":6.8,"score3":6.4},
+          {"name": "特奥·埃尔南德斯","name2":"Theo Hernández", "value": 6000,"score1":6.25,"score2":8.29,"score3":6.41},
+          {"name": "琼阿梅尼","name2":" Aurélien Tchouameni","value": 9000,"score1":5.97,"score2":7.59,"score3":6.95},
+          {"name": "拉比奥","name2":"Adrien Rabiot", "value": 2500,"score1":6.91,"score2":0,"score3":6.89},
+          {"name": "登贝莱","name2":" Ousmane Dembélé", "value":6000,"score1":5.22,"score2":7.1,"score3":6.7},
+          {"name": "格里兹曼","name2":"Antoine Griezmann", "value":2500,"score1":6.81,"score2":7.75,"score3":7.56	},
+          {"name": "姆巴佩","name2": "Kylian Mbappé", "value": 18000,"score1":8.92,"score2":7.22,"score3":6.59},
+          {"name": "吉鲁","name2":"Olivier Giroud", "value": 400,"score1":6.22,"score2":7.35,"score3":7.48},
+          {"name": "马库斯·图拉姆","name2":"Marcus Thuram", "value":3200,"score1":7.42,"score2":	6.84,"score3":0},
+          {"name": "穆阿尼","name2":"Randal Kolo Muani", "value": 3700,"score1":7.71,"score2":6.91,"score3":0} ,
+          {"name": "金斯利·科曼","name2":"Kingsley Coman", "value": 6000,"score1":6.34,"score2":0,"score3":6.08},
+          {"name": "卡马温加","name2":"Eduardo Camavinga", "value": 5000,"score1":6.99,"score2":0,"score3":0},
+          {"name": "优素福·福法纳","name2":"Youssouf Fofana", "value":2500,"score1":6.23,"score2":7.37,"score3":0},
+          {"name": "科纳特","name2":"Ibrahima Konaté", "value":3500,"score1":6.49,"score2":7.64,"score3":0},
+          {"name": "迪萨西","name2":"Axel Disasi", "value": 2500,"score1":6,"score2":0,"score3":0},
+          {"name": "阿雷奥拉","name2":"Alphonse Areola", "value":800,"score1":0,"score2":0,"score3":0},
+          {"name": "曼丹达","name2":"Steve Mandanda", "value": 150,"score1":0,"score2":0,"score3":0},
+          {"name": "萨利巴","name2":"William Saliba", "value": 5000,"score1":0,"score2":0,"score3":0},
+          {"name": "帕瓦尔","name2":"Benjamin Pavard", "value":3500,"score1":0,"score2":0,"score3":0},
+          {"name": "韦勒图","name2":"Jordan Veretout", "value":1400,"score1":0,"score2":0,"score3":0},
+          {"name": "贡多齐","name2":"Mattéo Guendouzi", "value": 2500,"score1":0,"score2":0,"score3":0},
+          {"name": "卢卡斯·埃尔南","name2":"Lucas Hernández", "value": 5000,"score1":0,"score2":0,"score3":0}
+           
+            
+           
+          
+           
+            
+           
+            
+           
+          
+           
+           
+          
+            
+            
+            
+            
+            
+        ]
+      },
+      {
+        "name": "英格兰",
+        "name2": "England",
+        "color": "#4aaaea",
+        "t_value":126000,
+        "filter": 7,
+        "children": [
+          
+            {"name": "皮克福德","name2":"Jordan Pickford", "value":2800 ,"score1":	6.28},
+            {"name": "凯尔·沃克","name2":"Kyle Walker", "value":1500 ,"score1":6.41},
+            {"name": "斯通斯","name2":"John Stones", "value":3000,"score1":6.36} ,
+            {"name": "哈里·马奎尔","name2":"Harry Maguire", "value": 3000,"score1":6.93},
+            {"name": "卢克·肖","name2":"Luke Shaw", "value":2800 ,"score1":6.24},
+            {"name": "贝林厄姆","name2":"Jude Bellingham", "value":11000 ,"score1":7.02},
+            {"name": "德克兰·赖斯","name2":"Declan Rice", "value": 	8000,"score1":6.88},
+            {"name": "亨德森","name2":"Jordan Henderson", "value":1500,"score1":6.26},
+            {"name": "布卡约·萨卡","name2":"Bukayo Saka", "value":10000 ,"score1":7.25},
+            {"name": "哈里·凯恩","name2":"Harry Kane", "value": 9000,"score1":6.76},
+            {"name": "菲尔·福登","name2":"Phil Foden", "value":11000,"score1":6.88},
+            {"name": "斯特林","name2":"Raheem Sterling", "value":7000 ,"score1":6.07},
+            {"name": "梅森·芒特","name2":"Mason Mount", "value":	7500,"score1":	6.35},
+            {"name": "拉什福德","name2":"Marcus Rashford", "value":5500,"score1":6.11},
+            {"name": "格雷利什","name2":"Jack Grealish", "value":	7000,"score1":5.98},
+            {"name": "尼克·波普","name2":"Nick Pope", "value": 1800,"score1":0},
+            {"name": "拉姆斯代尔","name2":"Aaron Ramsdale", "value":3000 ,"score1":0},
+            {"name": "戴尔","name2":"Eric Dier", "value":3000 ,"score1":0} ,
+            {"name": "康诺·科迪","name2":"Conor Coady", "value":1800,"score1":0},
+            {"name": "特里皮尔","name2":"Kieran Trippier", "value":	1300 ,"score1":0},
+            {"name": "特伦特·阿诺德","name2":"Trent Alexander-Arnold", "value":7000,"score1":0},
+            {"name": "卡尔文·菲利普斯","name2":"Kalvin Phillips", "value":4500 ,"score1":0},
+            {"name": "康纳·加拉格尔","name2":"Conor Gallagher", "value":3200 ,"score1":0},
+            {"name": "詹姆斯·麦迪逊","name2":"James Maddison", "value":	5500 ,"score1":0},
+            {"name": "卡勒姆·威尔逊","name2":"Callum Wilson", "value":1800 ,"score1":0}
+             
+        ]
+      },
+      {
+        "name": "巴西",
+        "name2": "Brazil",
+        "color": "#6A5ACD",
+        "t_value":113700,
+        "filter":6,
+        "children": [
+          
+            {"name": "阿利松", "name2": "Alisson", "value":5000 ,"score1":5.31},
+            {"name": "米利唐", "name2": "Éder Militão", "value":6000 ,"score1":7.4},
+            {"name": "马尔基尼奥斯", "name2": "Marquinhos", "value":	7000 ,"score1":5.58},
+            {"name": "蒂亚戈·席尔瓦", "name2": "Thiago Silva", "value":250 ,"score1":6.88},
+            {"name": "达尼洛", "name2": "Danilo", "value":1200 ,"score1":6.8},
+            {"name": "卡塞米罗", "name2": "Casemiro", "value":5000 ,"score1":7.5},
+            {"name": "帕奎塔", "name2": "Lucas Paquetá", "value":	4500 ,"score1":7.47},
+            {"name": "拉菲尼亚", "name2": "Raphinha", "value":	5000 ,"score1":6.09},
+            {"name": "内马尔", "name2": "Neymar", "value":	7500,"score1":	8.08},
+            {"name": "维尼修斯", "name2": "Vinicius Junior", "value":12000 ,"score1":6.35},
+            {"name": "理查尔里森", "name2": "Richarlison", "value":	5500 ,"score1":6.65},
+            {"name": "安东尼", "name2": "Antony", "value":7500 ,"score1":6.33},
+            {"name": "罗德里戈", "name2": "Rodrygo", "value":8000 ,"score1":5.89},
+            {"name": "佩德罗", "name2": "Pedro", "value":2000,"score1":6.65},
+            {"name": "阿莱士·桑德罗", "name2": "Alex Sandro", "value":450,"score1":6.0},
+            {"name": "弗雷德", "name2": "Fred", "value":2000,"score1":6.04},
+            {"name": "埃德森", "name2": "Ederson", "value":	4500,"score1":0} ,
+            {"name": "维弗顿", "name2": "Weverton", "value":	350,"score1":0},
+            {"name": "布雷默", "name2": "Bremer", "value":4000,"score1":0},
+            {"name": "阿尔维斯", "name2": "Dani Alves", "value":100 ,"score1":0},
+            {"name": "法比尼奥", "name2": "Fabinho", "value":5500 ,"score1":0},
+            {"name": "布鲁诺·吉马良斯", "name2": "Bruno Guimarães", "value":	6000 ,"score1":0},
+            {"name": "里贝罗", "name2": "Éverton Ribeiro", "value":450 ,"score1":0},
+            {"name": "马丁内利", "name2": "Gabriel Martinelli", "value":	6000 ,"score1":0}
+             
+        ]
+      }
+      ,
+      {
+        "name": "阿根廷",
+        "name2": "Argentina",
+        "color": "#66009d",
+        "filter": 5,
+        "t_value":63320,
+        "children": [
+            {"name": "马丁内斯", "name2": "Emiliano Martínez", "value":2800 ,"score1":6.21,"score2":7.69,"score3":6.65},
+            {"name": "纳韦尔·莫利纳", "name2": "Nahuel Molina", "value":2200 ,"score1":5.92,"score2":6.84,"score3":6.9},
+            {"name": "罗梅罗", "name2": "Cristian Romero", "value":6000,"score1":6.56,"score2":6.97,"score3":7.06},
+            {"name": "奥塔门迪", "name2": "Nicolás Otamendi", "value": 300,"score1":5.67,"score2":6.83,"score3":6.36},
+            {"name": "塔利亚菲科", "name2": "Nicolás Tagliafico", "value": 900,"score1":7.07,"score2":7.21,"score3":6.04},
+            {"name": "麦卡利斯特", "name2": "Alexis Mac Allister", "value":4200 ,"score1":7.57,"score2":6.86,"score3":6.78},
+            {"name": "恩佐·费尔南德斯", "name2": "Enzo Fernández", "value":5500 ,"score1":7.47,"score2":7.3,"score3":6.25},
+            {"name": "德保罗", "name2": "Rodrigo de Paul", "value":4000 ,"score1":6.38,"score2":6.76,"score3":6.92},
+            {"name": "梅西", "name2": "Lionel Messi", "value": 5000,"score1":8.89,"score2":8.59,"score3":6.92},
+            {"name": "朱利安·阿尔瓦雷斯", "name2": "Julián Álvarez", "value":5000 ,"score1":6.25,"score2":8.49,"score3":6.5},
+            {"name": "迪玛利亚", "name2": "Ángel Di María", "value":1000 ,"score1":8.34,"score2":0,"score3":6.12},
+            {"name": "阿库尼亚", "name2": "Marcos Acuña", "value":1400 ,"score1":6.29,"score2":0,"score3":7.47},
+            {"name": "蒙蒂埃尔", "name2": "Gonzalo Montiel", "value":1200 ,"score1":6.06,"score2":0,"score3":6.41},
+            {"name": "帕雷德斯", "name2": "Leandro Paredes", "value":1500 ,"score1":6.47,"score2":7.24,"score3":6.87},
+            {"name": "劳塔罗·马丁内斯", "name2": "Lautaro Martínez", "value":	7500 ,"score1":5.83,"score2":0,"score3":6.61},
+            {"name": "佩塞利亚", "name2": "Germán Pezzella", "value": 500,"score1":5.9,"score2":0,"score3":5.71},
+            {"name": "迪巴拉", "name2": "Paulo Dybala", "value": 3000,"score1":6.62,"score2":6.68	,"score3":0},
+            {"name": "阿尔玛尼", "name2": "Franco Armani", "value":320 ,"score1":0,"score2":0,"score3":0},
+            {"name": "鲁利", "name2": "Gerónimo Rulli", "value":1000 ,"score1":0,"score2":0,"score3":0},
+            {"name": "利桑德罗·马丁内斯", "name2": "Lisandro Martínez", "value": 5000,"score1":0,"score2":6.38,"score3":6.32},
+            {"name": "弗伊特", "name2": "Juan Foyth", "value":2500 ,"score1":0,"score2":6.16,"score3":0},
+            {"name": "圭多·罗德里格斯", "name2": "Guido Rodríguez", "value": 2800,"score1":0,"score2":0,"score3":0},
+            {"name": "帕拉西奥斯", "name2": "Exequiel Palacios", "value":1500 ,"score1":0,"score2":6.24,"score3":0},
+            {"name": "阿尔马达", "name2": "Thiago Almada", "value": 1500,"score1":0,"score2":0,"score3":0},
+            {"name": "戈麦斯", "name2": "Papu Gómez", "value": 400,"score1":0,"score2":0,"score3":0},
+            {"name": "科雷亚", "name2": "Ángel Correa", "value":4000 ,"score1":0,"score2":6.22	,"score3":0}
+            
+                   ]
+      }
+      ,
+      
+      {
+        "name": "荷兰",
+        "name2": "Netherlands",
+        "color": "#ef1621",
+        "filter": 4,
+        "t_value":58425,
+        "children": [
+          
+            {"name": "诺佩特", "name2": "Andries Noppert", "value":500 ,"score1":5.95},
+            {"name": "范迪克", "name2": "Virgil van Dijk", "value":5000 ,"score1":5.98},
+            {"name": "朱力安·蒂姆", "name2": "Jurrien Timber", "value":	4500 ,"score1":6.52} ,
+            {"name": "纳坦·阿克", "name2": "Nathan Aké", "value":	3000 ,"score1":6.67},
+            {"name": "邓弗里斯", "name2": "Denzel Dumfries", "value": 2800,"score1":4.56},
+            {"name": "弗兰基·德容", "name2": "Frenkie de Jong", "value":5000 ,"score1":6.4},
+            {"name": "德容恩", "name2": "Marten de Roon", "value": 	1200,"score1":6.07},
+            {"name": "布林德", "name2": "Daley Blind", "value":	600 ,"score1":6.46},
+            {"name": "加克波", "name2": "Cody Gakpo", "value":6000,"score1":6.52},
+            {"name": "德佩", "name2": "Memphis Depay", "value":2000,"score1":5.97},
+            {"name": "贝尔温", "name2": "Steven Bergwijn", "value":	2700 ,"score1":5.89},
+            {"name": "博古伊斯", "name2": "Steven Berghuis", "value": 1400,"score1":6.33},
+            {"name": "库普梅纳斯", "name2": "Teun Koopmeiners", "value":3000 ,"score1":7.46},
+            {"name": "卢克·德容", "name2": "Luuk de Jong", "value":400,"score1":6.92},
+            {"name": "维格霍斯特", "name2": "Wout Weghorst", "value":	1400 ,"score1":8.64},
+            {"name": "诺阿·朗", "name2": "Noa Lang", "value":	1500 ,"score1":6.24},
+            {"name": "帕斯维尔", "name2": "Remko Pasveer", "value":25 ,"score1":0},
+            {"name": "贾斯汀·比尔罗", "name2": "Justin Bijlow", "value":1300,"score1":0},
+            {"name": "德弗里", "name2": "Stefan de Vrij", "value":	1500 ,"score1":0},
+            {"name": "德里赫特", "name2": "Matthijs de Ligt", "value":7000,"score1":6.42},
+            {"name": "马拉西亚", "name2": "Tyrell Malacia", "value":2200 ,"score1":0},
+            {"name": "杰雷米·弗林蓬", "name2": "Jeremie Frimpong", "value":	2500 ,"score1":0},
+            {"name": "肯内特·泰勒", "name2": "Kenneth Taylor", "value":1400 ,"score1":0},
+            {"name": "克拉森", "name2": "Davy Klaassen", "value":1200,"score1":0},
+            {"name": "哈维·西蒙斯", "name2": "Xavi Simons", "value":1800,"score1":0},
+            {"name": "文森特·扬森", "name2": "Vincent Janssen", "value":600 ,"score1":0}
+            
+        ]
+      }
+      ,
+      {
+        "name": "克罗地亚",
+        "name2": "Croatia",
+        
+        "color": "#C71585",
+        "filter": 3,
+        "t_value":44500,
+        "children": [
+         
+            {"name": "利瓦科维奇", "name2": "Dominik Livakovic", "value":1400 ,"score1":5.74,"score2":6.31,"score3":8.24},
+            {"name": "尤拉诺维奇", "name2": "Josip Juranovic", "value":900 ,"score1":6,"score2":0,"score3":7.31},
+            {"name": "格瓦迪奥尔", "name2": "Josko Gvardiol", "value":7500,"score1":6.32,"score2":7.43,"score3":6.7},
+            {"name": "洛夫伦", "name2": "Dejan Lovren", "value":350,"score1":5.95	,"score2":0,"score3":7.03},
+            {"name": "博尔纳·索萨", "name2": "Borna Sosa", "value": 2000,"score1":5.85,"score2":0,"score3":6.74},
+            {"name": "科瓦契奇", "name2": "Mateo Kovacic", "value": 4000,"score1":6.76,"score2":7.4,"score3":6.84},
+            {"name": "莫德里奇", "name2": "Luka Modric", "value": 1000,"score1":6.89,"score2":6.98,"score3":7.41},
+            {"name": "布罗佐维奇", "name2": "Marcelo Brozovic", "value":	3500 ,"score1":6.08,"score2":0,"score3":7.09},
+            {"name": "帕萨利奇", "name2": "Mario Pasalic", "value": 2500,"score1":	6.18,"score2":6.12,"score3":6.74},
+            {"name": "克拉马里奇", "name2": "Andrej Kramaric", "value": 900,"score1":6.1,"score2":6.57,"score3":5.98},
+            {"name": "佩里西奇", "name2": "Ivan Perisic", "value": 1000,"score1":6.52,"score2":7.63,"score3":6.49},
+            {"name": "弗拉西奇", "name2": "Nikola Vlasic", "value": 2000,"score1":6.17,"score2":	6.18,"score3":6.69} ,
+            {"name": "奥尔西奇", "name2": "Mislav Orsic", "value": 	1000,"score1":5.94,"score2":7.61,"score3":7.01},
+            {"name": "彼得科维奇", "name2": "Bruno Petkovic", "value": 	600,"score1":6.03,"score2":6.33,"score3":7.11},
+            {"name": "里瓦贾", "name2": "Marko Livaja", "value": 	800,"score1":6,"score2":6.99,"score3":0},
+            {"name": "马耶尔", "name2": "Lovro Majer", "value": 2200,"score1":6.15,"score2":6.44,"score3":6.78},
+            {"name": "伊沃·格尔比奇", "name2": "Ivo Grbic", "value": 350,"score1":0,"score2":0,"score3":0},
+            {"name": "伊维卡·伊武西奇", "name2": "Ivica Ivusic", "value": 500,"score1":0,"score2":0,"score3":0},
+            {"name": "约瑟普·苏塔罗", "name2": "Josip Sutalo", "value": 1800,"score1":0,"score2":6.36,"score3":0},
+            {"name": "埃尔里奇", "name2": "Martin Erlic", "value": 550,"score1":0,"score2":0,"score3":0},
+            {"name": "维达", "name2": "Domagoj Vida", "value": 200,"score1":0,"score2":0,"score3":0},
+            {"name": "巴里西奇", "name2": "Borna Barisic", "value":	650 ,"score1":0,"score2":6.7,"score3":0},
+            {"name": "斯坦尼西奇", "name2": "Josip Stanisic", "value":800 ,"score1":0,"score2":0,"score3":0},
+            {"name": "克里斯蒂安·贾基奇", "name2": "Kristijan Jakic", "value":	900 ,"score1":0,"score2":6,"score3":0},
+            {"name": "卢卡·苏西奇", "name2": "Luka Sucic", "value":2000 ,"score1":0,"score2":0,"score3":0},
+            {"name": "布迪米尔", "name2": "Ante Budimir", "value": 600,"score1":0,"score2":0,"score3":6.12}
+             
+        ]
+      }
+      ,
+      {
+        "name": "摩洛哥",
+        "name2": "Morocco",
+        "color": "#666666",
+        "filter": 2,
+        "t_value":24100,
+        "children": [
+      
+            {"name": "博诺", "name2": "Bono", "value":1500 ,"score1":6.34,"score2":5.63,"score3":7.83},
+            {"name": "阿什拉夫", "name2": "Achraf Hakimi", "value": 7000,"score1":6.69,"score2":6.03,"score3":6.82},
+            {"name": "阿什拉夫·达里", "name2": "Achraf Dari", "value":250,"score1":7.32,"score2":	6.38,"score3":6.31},
+            {"name": "埃尔·亚米克", "name2": "Jawad El Yamiq", "value":120,"score1":6.02,"score2":6.89,"score3":7.6},
+            {"name": "亚希亚·阿迪亚特·阿拉", "name2": "Yahia Attiyat Allah", "value":250 ,"score1":6.01,"score2":5.93,"score3":7.66},
+            {"name": "阿姆拉巴特", "name2": "Sofyan Amrabat", "value":	2500,"score1":6,"score2":6.1,"score3":6.67},
+            {"name": "萨比里", "name2": "Abdelhamid Sabiri", "value":	400,"score1":	5.92,"score2":0,"score3":0},
+            {"name": "比拉尔·汉努斯", "name2": "Bilal El Khannouss", "value":450 ,"score1":5.94,"score2":0,"score3":0},
+            {"name": "齐耶赫", "name2": "Hakim Ziyech", "value": 2000,"score1":7.27,"score2":5.89,"score3":6.56},
+            {"name": "恩尼西里", "name2": "Youssef En-Nesyri", "value": 1500,"score1":6.53,"score2":5.94,"score3":7.7},
+            {"name": "布法尔", "name2": "Sofiane Boufal", "value": 1000,"score1":6.16,"score2":6.24	,"score3":6.88},
+            {"name": "伊利亚斯·切尔", "name2": "Ilias Chair", "value":1000 ,"score1":	6.09,"score2":0,"score3":0},
+            {"name": "乌纳西", "name2": "Azzedine Ounahi", "value": 1500,"score1":	6.07,"score2":6.66,"score3":7.2},
+            {"name": "阿纳斯·扎鲁里", "name2": "Anass Zaroury", "value":400 ,"score1":	6.15,"score2":0,"score3":0},
+            {"name": "拜德尔·贝努恩", "name2": "Badr Benoun", "value":100 ,"score1":	6.1,"score2":0,"score3":6.16},
+            {"name": "塞利姆·阿马拉", "name2": "Selim Amallah", "value": 650,"score1":6.39,"score2":6.51,"score3":6.55},
+            {"name": "穆尼尔", "name2": "Munir", "value":120 ,"score1":0,"score2":0,"score3":0},
+            {"name": "塔格诺提", "name2": "Ahmed Reda Tagnaouti", "value":180 ,"score1":0,"score2":0,"score3":0},
+            {"name": "罗曼·赛斯", "name2": "Romain Saïss", "value": 650,"score1":0,"score2":	5.84,"score3":6.53},
+            {"name": "阿格尔德", "name2": "Nayef Aguerd", "value": 2500,"score1":0,"score2":0,"score3":0},
+            {"name": "叶海亚·贾布拉内", "name2": "Yahya Jabrane", "value": 190,"score1":0,"score2":0,"score3":6.03},
+            {"name": "阿布德", "name2": "Abde Ezzalzouli", "value": 800,"score1":0,"score2":6.24	,"score3":0},
+            {"name": "阿布赫拉尔", "name2": "Zakaria Aboukhlal", "value":350 ,"score1":0,"score2":5.84,"score3":4.57},
+            {"name": "瓦利德·切迪拉", "name2": "Walid Cheddira", "value": 600,"score1":0,"score2":0,"score3":4.57},
+            {"name": "阿德拉扎克·哈姆达拉", "name2": "Abderrazak Hamdallah", "value":300 ,"score1":0,"score2":6.28,"score3":0},
+            {"name": "马兹拉维", "name2": "Noussair Mazraoui", "value":2800,"score1":0,"score2":5.98,"score3":0}
+            
+        ]
+      }
+      ,
+      {
+        "name": "葡萄牙",
+        "name2": "Portuguesa",
+        "color": "#f58321",
+        "t_value":91100,
+        "filter": 1,
+        "children": [
+         
+            {"name": "迪奥戈·科斯塔", "name2": "Diogo Costa" , "value":3500,"score1":5.28},
+            {"name": "若泽·萨", "value": 1800, "name2": "José Sá" ,"score1":0},
+            {"name": "帕特里西奥", "value": 500, "name2": "Rui Patrício" ,"score1":0},
+            {"name": "坎塞洛", "value": 7000, "name2": "João Cancelo" ,"score1":	6.33},
+            {"name": "达洛特", "value": 3200, "name2": "Diogo Dalot" ,"score1":6.5},
+            {"name": "马修斯·努内斯", "value":4500 , "name2": "Matheus Nunes" ,"score1":0},
+            {"name": "鲁本·迪亚斯", "value": 7500, "name2": "Rúben Dias" ,"score1":6.45},
+            {"name": "佩佩", "value": 100, "name2": "Pepe" ,"score1":6.32},
+            {"name": "安东尼奥·席尔瓦", "value": 1500, "name2": "António Silva" ,"score1":0},
+            {"name": "若昂·马里奥", "value":1200 , "name2": "João Mário" ,"score1":0},
+            {"name": "拉斐尔·格雷罗", "value": 2000, "name2": "Raphaël Guerreiro" ,"score1":6.23},
+            {"name": "帕利尼亚", "value":2800, "name2": "João Palhinha" ,"score1":0},
+            {"name": "安德烈·席尔瓦", "value":	2400, "name2": "André Silva" ,"score1":0},
+            {"name": "贝尔纳多·席尔瓦", "value":8000, "name2": "Bernardo Silva" ,"score1":6.33},
+            {"name": "布鲁诺·费尔南德斯", "value":7500, "name2": "Bruno Fernandes" ,"score1":7.58},
+            {"name": "奥塔维奥", "value":3000, "name2": "Otávio" ,"score1":6.94},
+            {"name": "内维斯", "value": 4000, "name2": "Rúben Neves" ,"score1":6.07},
+            {"name": "维蒂尼亚", "value":4500, "name2": "Vitinha" ,"score1":5.99},
+            {"name": "威廉·卡瓦略", "value": 1600, "name2": "William Carvalho" ,"score1":0},
+            {"name": "C·罗纳尔多", "value": 2000, "name2": "Cristiano Ronaldo" ,"score1":6.24},
+            {"name": "里卡多·奥尔塔", "value":2000, "name2": "Ricardo Horta" ,"score1":5.97},
+            {"name": "拉斐尔·莱奥", "value":8500, "name2": "Rafael Leão" ,"score1":6.69},
+            {"name": "贡萨洛·拉莫斯", "value":3000, "name2": "Gonçalo Ramos" ,"score1":5.84},
+            {"name": "若奥·菲利克斯", "value": 5000, "name2": "João Félix" ,"score1":6}
+            
+        ]
+      }
+    ]
+  }
