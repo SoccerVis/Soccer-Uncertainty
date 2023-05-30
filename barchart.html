@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="src/d3.v4.js"></script>
+
+<!-- Create a div where the graph will take place -->
+<button onclick="window.location.href='voronoitreemaptry27_RankingChinese.html'" type="button">树图</button>
+<div id="my_dataviz"></div>
+<style>
+
+.mirrorRotateLevel {          /* 水平镜像翻转 */
+            -moz-transform:scaleX(-1);
+            -webkit-transform:scaleX(-1);
+            -o-transform:scaleX(-1);
+            transform:scaleX(-1);
+            /*兼容IE*/
+            filter:FlipH;
+        }
+
+        .mirrorRotateLevel2 {
+            transform: rotateY(180deg) translateX(898,0);   /* 水平镜像翻转 */
+        }
+        #mirrorRotateLevel3 {
+            transform: translate(898,0);   /* 水平镜像翻转 */ 
+        }
+
+        .hoverer {
+        fill: transparent;
+        stroke: white;
+        stroke-width:0px;
+      }
+
+      .hoverer:hover {
+        stroke-width: 3px;
+      }
+</style>
+<script>
+
+
+    // set the dimensions and margins of the graph
+    var margin = {top: 50, right: 30, bottom: 40, left: 90},
+        width = 2200 - margin.left - margin.right,
+        height = 2500 - margin.top - margin.bottom;
+    
+    // append the svg object to the body of the page
+    var svg = d3.select("#my_dataviz")
+      .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom+800)
+      .append("g")
+        .attr("transform",
+              "translate(" + margin.left + "," + margin.top + ")");
+    
+    // Parse the Data
+    d3.csv("bardata.csv", function(data) {
+    
+      // Add X axisF
+      var x = d3.scaleLinear()
+        .domain([0, 20000])
+        .range([0, width/3]);
+      svg.append("g")
+        .attr("transform", "translate(1100," + height + ")")
+        .call(d3.axisBottom(x))
+        .selectAll("text")
+          .attr("transform", "translate(0,0)rotate(0)")
+          .style("text-anchor", "end");
+
+          var x2 = d3.scaleLinear()
+        .domain([10, 0])
+        .range([0, width/3]);
+      svg.append("g")
+        .attr("transform", "translate(295," + height + ")")
+        .call(d3.axisBottom(x2))
+        .selectAll("text")
+          .style("text-anchor", "end");
+
+          var x3 = d3.scaleLinear()
+          .domain([0, 10])
+        .range([0, width/3]);
+    
+      // Y axis
+      var y = d3.scaleBand()
+        .range([ 0, height ])
+        .domain(data.map(function(d) { return d.ChineseName; }))
+        .padding(.1);
+
+        svg.append("g")
+          .attr("transform", "translate(992,"+height+")rotate(180)")    
+          .call(d3.axisLeft(y))
+          .selectAll("text")
+          .attr("fill", "white")
+
+      svg.append("g")
+        .attr("transform", "translate(1098,0)rotate(0)")
+        .call(d3.axisLeft(y))
+        .selectAll("text")
+          //.attr("transform", "translate(1005,0)rotate(0)")
+    
+
+
+
+        console.log(data)  
+
+        svg.append("g")
+        .append("text")
+        .attr("x", 760)
+    // .attr("x", (width / 40) * 39)
+    .attr("y",-20)
+    .style("text-anchor", "end")
+    .style("font-size","20") //样式对齐
+    .text("得分");
+
+    svg.append("g")
+        .append("text")
+        .attr("x", 1360)
+    // .attr("x", (width / 40) * 39)
+    .attr("y",-20)
+    .style("text-anchor", "end")
+    .style("font-size","20") //样式对齐
+    .text("身价");
+
+      //Bars
+      svg.selectAll("myRect")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("class","myRect")
+        .attr("x", x(0)+1100 )
+        .attr("y", function(d) { return y(d.ChineseName); })
+        .attr("width", function(d) { return x(d.MarketValue); })
+        .attr("height", y.bandwidth() )
+        .attr("fill",   function(d){
+        return d.Colour})
+
+        // svg.selectAll("myRect")
+        // .data(data)
+        // .enter()
+        // .append("rect")
+        // .attr("x",function(d) { return  x(0)+890-x(d.MeanOfScore*1000)})
+        // .attr("y", function(d) { return y(d.ChineseName); })
+        // .attr("width", function(d) { return x(d.MeanOfScore*1000); })
+        // .attr("height", y.bandwidth() )
+        // .attr("fill", "#69b3a2")
+
+        svg.selectAll("myRect")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("x",function(d) { return  x3(0)+990-x3(d.MeanOfScore)})
+        .attr("y", function(d) { return y(d.ChineseName); })
+        .attr("width", function(d) { return x3(d.MeanOfScore); })
+        .attr("height", y.bandwidth() )
+        .attr("fill",  function(d){
+        return d.Colour})
+
+        svg.selectAll("ErrorBar")
+        .data(data)
+        .enter()
+        .append("line")
+        .attr("x1",function(d) { return  x3(0)+990-x3(d.MeanOfScore)-x3(d.VarianceofScore)})
+        .attr("x2",function(d) { return  x3(0)+990-x3(d.MeanOfScore)+x3(d.VarianceofScore)})
+        .attr("y1", function(d) { return y(d.ChineseName)+y.bandwidth()/2; })
+        .attr("y2", function(d) { return y(d.ChineseName)+y.bandwidth()/2; })
+        // .attr("width", function(d) { return x3(d.MeanOfScore); })
+        // .attr("height", y.bandwidth() )
+        .attr("stroke", "grey")
+
+        svg.selectAll("ErrorBar")
+        .data(data)
+        .enter()
+        .append("line")
+        .attr("x1",function(d) { return  x3(0)+990-x3(d.MeanOfScore)-x3(d.VarianceofScore)})
+        .attr("x2",function(d) { return  x3(0)+990-x3(d.MeanOfScore)-x3(d.VarianceofScore)})
+        .attr("y1", function(d) { return y(d.ChineseName)+y.bandwidth()/6*5; })
+        .attr("y2", function(d) { return y(d.ChineseName)+y.bandwidth()/6; })
+        // .attr("width", function(d) { return x3(d.MeanOfScore); })
+        // .attr("height", y.bandwidth() )
+        .attr("stroke", "grey")
+
+        svg.selectAll("ErrorBar")
+        .data(data)
+        .enter()
+        .append("line")
+        .attr("x1",function(d) { return  x3(0)+990-x3(d.MeanOfScore)+x3(d.VarianceofScore)})
+        .attr("x2",function(d) { return  x3(0)+990-x3(d.MeanOfScore)+x3(d.VarianceofScore)})
+        .attr("y1", function(d) { return y(d.ChineseName)+y.bandwidth()/6*5; })
+        .attr("y2", function(d) { return y(d.ChineseName)+y.bandwidth()/6; })
+        // .attr("width", function(d) { return x3(d.MeanOfScore); })
+        // .attr("height", y.bandwidth() )
+        .attr("stroke", "grey")
+
+        console.log(d3.selectAll(".myRect"))
+    
+        var hoverers = svg.append("g")
+        	.classed('hoverers', true)
+        	//.attr("transform", "translate("+[-treemapRadius,-treemapRadius]+")")
+	        .selectAll(".hoverer")
+        	.data(data)
+        	.enter()
+        		.append("rect")
+        			.classed("hoverer", true)
+              .attr("x",function(d) { return  x3(0)+990-x3(d.MeanOfScore)})
+        .attr("y", function(d) { return y(d.ChineseName); })
+        .attr("width", function(d) { return x3(d.MeanOfScore); })
+        .attr("height", y.bandwidth() )
+              .style("opacity", 0.5)
+          //     .attr("id",function(d,i) {return "hov_" + i;})
+        	// 		.attr("d", function(d){ return "M"+d.polygon.join(",")+"z"; });
+
+
+          var hoverers2 = svg.append("g")
+        	.classed('hoverers2', true)
+          .selectAll(".hoverer")
+        	.data(data)
+        	.enter()
+        		.append("rect")
+        			.classed("hoverer", true)
+              .attr("x", x(0)+1100 )
+        .attr("y", function(d) { return y(d.ChineseName); })
+        .attr("width", function(d) { return x(d.MarketValue); })
+        .attr("height", y.bandwidth() )
+              .style("opacity", 0.5)
+        
+        hoverers2.append("title")
+          .text(function(d) { return d.ChineseName+ "\n" + "球队："+d.Team+ "\n"+"身价："+d.MarketValue+"万欧元"+ "\n" + "评分方差："+d.VarianceofScore+ "\n" + "评分均值："+d.MeanOfScore+ "\n" + "名次差："+d.deltaRanking; });
+
+          hoverers.append("title")
+          .text(function(d) { return d.ChineseName+ "\n" + "球队："+d.Team+ "\n"+"身价："+d.MarketValue+"万欧元"+ "\n" + "评分方差："+d.VarianceofScore+ "\n" + "评分均值："+d.MeanOfScore+ "\n" + "名次差："+d.deltaRanking; });
+
+
+        var data_legend = [
+        {
+        "name":"Argentina",
+        "color":"rgb(159,205,238)"
+    },
+    {
+        "name":"France",
+        "color":"rgb(50,107,199)"
+    },
+    {
+        "name":"Croatia",
+        "color":"rgb(236,28,35)"
+    }
+    ,
+    {
+        "name":"Morocco",
+        "color":"rgb(134,39,33)"
+    },
+    {
+        "name":"Netherlands",
+        "color":"rgb(242,107,23)"
+    }
+    ,
+    {
+        "name":"England",
+        "color":"rgb(150,150,150)"
+    },
+    {
+        "name":"Brazil",
+        "color":"rgb(245,209,0)"
+    },
+    {
+        "name":"Portuguesa",
+        "color":"rgb(0,139,69)"
+    }
+   
+    
+];
+
+
+        var legend = svg.selectAll(".legend") 
+    .data(data_legend)
+    .enter().append("g")
+    .attr("class", "legend")
+    .attr("transform", function(d, i) { return "translate(-30," + (i * 20 + 30) + ")"; });  //transform属性便是整个图例的坐标
+ 
+//绘制文字后方的颜色框或线
+legend.append("rect")
+    .attr("x", width - 25) //width是svg的宽度，x属性用来调整位置
+    // .attr("x", (width / 160) * 157)  
+    //或者可以用width的分数来表示，更稳定一些，这是我试出来的，下面同
+    .attr("y", 8)
+    .attr("width", 40)
+    .attr("height", 10) //设低一些就是线，高一些就是面，很好理解
+    .style("fill", function(d){
+        return d.color
+    });
+ 
+//绘制图例文字
+legend.append("text")
+    .attr("x", width - 30)
+    // .attr("x", (width / 40) * 39)
+    .attr("y", 15)
+    .style("text-anchor", "end") //样式对齐
+    .text(function(d) { 
+        return d.name;
+    });
+
+    
+    })
+    
+    </script>
